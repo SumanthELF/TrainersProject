@@ -10,6 +10,7 @@ public class SampleTest {
 
 	@Test
 	public void nav() {
+		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.woodenstreet.com/");
